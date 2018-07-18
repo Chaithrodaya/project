@@ -38,7 +38,7 @@ def startInstance():
 
     # change instance ID appropriately  
     try:
-         ec2.start_instances(instance_ids="i-12345678")
+         ec2.start_instances(instance_ids="i-0dfa82e43e53d4bf7")
 
     except Exception, e2:
         error2 = "Error2: %s" % str(e2)
@@ -57,7 +57,7 @@ def stopInstance():
         sys.exit(0)
 
     try:
-         ec2.stop_instances(instance_ids="i-12345678")
+         ec2.stop_instances(instance_ids="i-0dfa82e43e53d4bf7")
 
     except Exception, e2:
         error2 = "Error2: %s" % str(e2)
