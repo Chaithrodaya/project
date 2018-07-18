@@ -12,7 +12,7 @@ def main():
     # read arguments from the command line and 
     # check whether at least two elements were entered
     if len(sys.argv) < 2:
-	print "Usage: python aws.py {start|stop}\n"
+	print "Usage: python aws.py {start|stop}"
 	sys.exit(0)
     else:
 	action = sys.argv[1] 
